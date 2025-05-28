@@ -1,0 +1,80 @@
+/* 기본 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: "Pretendard", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #aff58e;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #6ee039;
+  margin-bottom: 16px;
+}
+
+.main-article {
+  font-size: 16px;
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.main-button {
+  background-color: #aff58e;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.main-button:hover {
+  opacity: 0.4;
+}
+
+.footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+  color: #888;
+  background-color: #111;
+}
